@@ -43,10 +43,10 @@ const Footer = () => {
       <div className='roboto-condensed-regular text-white text-[13px]
       gap-3.75 flex md:flex-col flex-row text-start md:items-start items-center'>
         <p className='roboto-condensed-semibold py-4 text-[#F38831] uppercase text-[15px] '>quick link</p>
-        <Link to={'/'}> <p> home</p></Link>
-        <Link to={"/about"}> <p>about us</p></Link>
-        <Link to={'/project'}> <p>project</p></Link>
-        <Link to={'/contact'}> <p>contact us</p></Link>
+        <Link to={'/'} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}> <p> home</p></Link>
+        <Link to={"/about"} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}> <p>about us</p></Link>
+        <Link to={'/project'} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}> <p>project</p></Link>
+        <Link to={'/contact'} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}> <p>contact us</p></Link>
       </div>
 
       {/* prj */}
