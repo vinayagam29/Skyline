@@ -11,12 +11,12 @@ const Footer = () => {
         <div className='flex flex-col gap-4'>
           <p className='text-center text-[#F38831] roboto-condensed-regular text-[15px] uppercase'>follow us</p>
           <div className='flex md:gap-1 gap-2'>
-            <a href="https://www.meta.com/in/"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/meta.png" alt="" /></a>
-            <a href="https://www.instagram.com/"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/insta.png" alt="" /></a>
-            <a href="https://x.com/"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/x_twit.png" alt="" /></a>
-            <a href="https://in.linkedin.com/"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/linikin.png" alt="" /></a>
-            <a href="https://www.youtube.com/"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/utube.png" alt="" /></a>
-            <a href="https://in.pinterest.com/"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/pin.png" alt="" /></a>
+            <a href="https://www.meta.com/in/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/meta.png" alt="" /></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/insta.png" alt="" /></a>
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/x_twit.png" alt="" /></a>
+            <a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/linikin.png" alt="" /></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/utube.png" alt="" /></a>
+            <a href="https://in.pinterest.com/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-full p-1.5 object-center' src="/imgsky/pin.png" alt="" /></a>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Footer = () => {
       {/* Q-link */}
       <div className='roboto-condensed-regular text-white text-[13px]
       gap-3.75 flex md:flex-col flex-row text-start md:items-start items-center'>
-        <p className='roboto-condensed-semibold py-4 text-[#F38831] uppercase text-[15px] '>quick llink</p>
+        <p className='roboto-condensed-semibold py-4 text-[#F38831] uppercase text-[15px] '>quick link</p>
         <Link to={'/'}> <p> home</p></Link>
         <Link to={"/about"}> <p>about us</p></Link>
         <Link to={'/project'}> <p>project</p></Link>
